@@ -1,0 +1,11 @@
+//clear array
+//one
+var ary = [1, 2, 3,4];
+arr.splice(0, ary.length);
+//two
+var ary = [1,2,3,4];
+ary.length = 0;
+//three
+var ary = [1,2,3,4];
+ary = [];
+//方式3更快，效率更高。因此如果不保留原数组的其它属性这种方式更值得推荐。
